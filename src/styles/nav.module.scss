@@ -1,3 +1,11 @@
-// nav {
-//     background: 
-// }
+@import './_variables.scss';
+
+.navContainer {
+    display: flex;
+    background: $snow;
+    width: 100%;
+    min-height: $navHeight;
+    height: $navHeight;
+    z-index: 50;
+    border: 1px solid red; //debug
+}

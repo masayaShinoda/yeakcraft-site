@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,aAAa;CACxB",
+    "mappings": "ACAA,OAAO,CAAC,6LAAI;AACZ,OAAO,CAAC,wJAAI;ADCZ,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,gBAAgB,EAAE,oDAAoD;EACtE,eAAe,EAAE,KAAK;EACtB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAOhB;;AAfD,AAWI,KAXC,CAWD,KAAK,CAAC;EACF,KAAK,EAAE,KAAK;CACf",
     "sources": [
-        "hero.module.scss"
+        "hero.module.scss",
+        "_variables.scss"
     ],
     "names": [],
     "file": "hero.module.css"

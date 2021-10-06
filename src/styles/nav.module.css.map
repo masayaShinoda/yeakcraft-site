@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,6LAAI;AACZ,OAAO,CAAC,wJAAI;ADCZ,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,UAAU,ECCP,OAAO;EDAV,KAAK,EAAE,IAAI;EACX,UAAU,ECMF,KAAK;EDLb,MAAM,ECKE,KAAK;EDJb,OAAO,EAAE,EAAE;EACX,MAAM,EAAE,aAAa;CACxB",
     "sources": [
-        "nav.module.scss"
+        "nav.module.scss",
+        "_variables.scss"
     ],
     "names": [],
     "file": "nav.module.css"
