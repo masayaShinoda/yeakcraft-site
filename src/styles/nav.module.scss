@@ -2,10 +2,34 @@
 
 .navContainer {
     display: flex;
-    background: $snow;
+    justify-content: space-between;
+    align-items: flex-end;
+    // background: $snow;
     width: 100%;
     min-height: $navHeight;
     height: $navHeight;
     z-index: 50;
-    border: 1px solid red; //debug
+    padding: 20px 10%;
+    // border: 1px solid red; //debug
+
+    .logoLink {
+        width: 200px;
+        max-width: 200px;        
+    }
+    nav {
+        a {
+            text-decoration: none;
+            font-size: 1.25em;
+            color: $darkBrown;
+            // text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            margin: 0 .5em;
+            transition: color .2s ease-in;
+        }
+        a:hover {
+            color: $brown;
+        }
+
+    }
 }

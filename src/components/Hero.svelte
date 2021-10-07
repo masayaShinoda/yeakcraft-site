@@ -1,16 +1,16 @@
 <script>
     import '../styles/hero.module.css'
 
-    let logo = './images/yeakcraft-logo.png'
-    let logoHorizontal = './images/yeakcraft-hori.png'
-    let slogan = `Survive, build, and fight on Cambodia's largest map`
+    let logo = './images/yeakcraft-logo-without-margin.png'
+    // let logoHorizontal = './images/yeakcraft-hori.png'
+    let slogan = `ផែនទីកម្ពុជាដំបូងគេបំផុត`
 </script>
 
 <div class="hero">
     <!-- <img src={heroImage} alt="background"/> -->
     <!-- <img src={logoHorizontal} alt="YeakCraft logo" /> -->
     <img src={logo} class="logo" alt="YeakCraft logo" />
-    <p class="slogan">
+    <p class="slogan" lang="khm" style="font-family: Koulen">
         {slogan}
     </p>
 </div>

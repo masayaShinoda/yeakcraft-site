@@ -4,10 +4,12 @@
 </script>
 
 <div class="navContainer">
+    <a href="/" class="logoLink">
+        <img src="/images/yeakcraft-hori-without-avatar.png" alt="YeakCraft logo">
+    </a>
     <nav>
-        <a href="/yeakcraft/map">Map</a>
+        <a href="/guide">Guide</a>
         <a href="/rules">Rules</a>
-        <a href="/">FAQs</a>
+        <a href="/yeakcraft/map">Map</a>
     </nav>
-
 </div>
