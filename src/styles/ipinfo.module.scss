@@ -12,6 +12,7 @@ section:first-of-type {
     width: 100%;
     background: #fff;
     margin-top: $heroHeight * 1.25;
+    position: absolute;
     @media (max-width: $mobile-bp) {
         position: fixed;
         bottom: $navHeight - 40px;

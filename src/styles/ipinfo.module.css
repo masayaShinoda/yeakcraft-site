@@ -27,6 +27,7 @@ section:first-of-type {
   width: 100%;
   background: #fff;
   margin-top: 525px;
+  position: absolute;
 }
 
 @media (max-width: 480px) {
