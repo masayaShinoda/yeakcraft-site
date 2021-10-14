@@ -1,8 +1,7 @@
 <script>
     import '../styles/hero.module.css'
-
+    
     let logo = './images/yeakcraft-logo-without-margin.png'
-    // let logoHorizontal = './images/yeakcraft-hori.png'
     let slogan = `ផែនទីកម្ពុជាដំបូងគេបំផុត`
 </script>
 

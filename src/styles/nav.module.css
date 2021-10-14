@@ -12,16 +12,21 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  background: #fff;
   width: 100%;
   min-height: 100px;
   height: 100px;
   z-index: 50;
   padding: 20px 10%;
+  position: fixed;
+  -webkit-box-shadow: 0 3px 8px rgba(40, 40, 40, 0.35);
+          box-shadow: 0 3px 8px rgba(40, 40, 40, 0.35);
 }
 
 .navContainer .logoLink {
   width: 200px;
   max-width: 200px;
+  border: 0;
 }
 
 .navContainer nav a {
@@ -33,9 +38,98 @@
   margin: 0 .5em;
   -webkit-transition: color .2s ease-in;
   transition: color .2s ease-in;
+  border-bottom: 0;
 }
 
 .navContainer nav a:hover {
   color: #946d46;
+  border-bottom: 2px solid #6aad43;
+}
+
+.navContainer nav img {
+  max-width: 100% !important;
+}
+
+@media (max-width: 480px) {
+  .navContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    bottom: 0;
+    padding: 0;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    -webkit-transition: color .1s ease-in;
+    transition: color .1s ease-in;
+  }
+  .navContainer nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .navContainer nav a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #6aad43;
+  }
+  .navContainer nav a:nth-of-type(even) {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+  .navContainer nav a:hover {
+    border-bottom: none;
+    background: #6aad43;
+    color: #fff;
+  }
+  .navContainer .logoLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 8px rgba(40, 40, 40, 0.35);
+            box-shadow: 0 3px 8px rgba(40, 40, 40, 0.35);
+    position: fixed;
+    top: 0;
+  }
+  .navContainer .logoLink img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 /*# sourceMappingURL=nav.module.css.map */

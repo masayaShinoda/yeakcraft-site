@@ -13,5 +13,12 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  main {
+    max-width: 1280px;
+  }
 }
 /*# sourceMappingURL=layout.module.css.map */

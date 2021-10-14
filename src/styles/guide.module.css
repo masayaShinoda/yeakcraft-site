@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+.guideContainer {
+  margin-top: 100px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.guideContainer section:first-of-type {
+  padding-top: 5em;
+}
+
+.guideContainer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4em 10%;
+  width: 100%;
+}
+
+.guideContainer section img {
+  max-width: 45%;
+}
+
+.guideContainer section .subDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2em 0;
+  width: 100%;
+}
+
+.guideContainer section .subDiv h2 {
+  margin-bottom: .5em;
+}
+
+.guideContainer section .subDiv span {
+  max-width: 50ch;
+  width: 45%;
+}
+
+.guideContainer section .subDiv span ul {
+  list-style-type: square;
+}
+
+.guideContainer section .subDiv img {
+  display: block;
+  width: 35%;
+  height: 35%;
+}
+
+.guideContainer section .subDiv.fullWidth span {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .guideContainer section .subDiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .guideContainer section .subDiv span, .guideContainer section .subDiv img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .guideContainer section .subDiv span {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.guideContainer section:nth-of-type(2) {
+  background: #eff0eb;
+}
+
+.guideContainer .ipInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #d7d7d7;
+  margin: 1em 0;
+}
+
+.guideContainer .ipInfo #ipInput {
+  color: #51392d;
+  padding: 8px 20px;
+  width: 100%;
+  font-size: 2em;
+  border: 2px solid #946d46;
+}
+
+.guideContainer .ipInfo button {
+  margin-top: 5px;
+  width: 100%;
+  height: 15px;
+}
+
+.guideContainer .commandsSpan {
+  margin-top: .5rem;
+}
+
+.guideContainer .commandsSpan code {
+  font-size: 110%;
+}
+
+.guideContainer .commandsSpan h3 code {
+  display: inline-block;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  width: 100%;
+  font-size: 120%;
+  padding: 10px 0 5px 0;
+  margin: 10px 0;
+  border-bottom: 2px solid #946d46;
+}
+/*# sourceMappingURL=guide.module.css.map */

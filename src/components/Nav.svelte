@@ -5,11 +5,11 @@
 
 <div class="navContainer">
     <a href="/" class="logoLink">
-        <img src="/images/yeakcraft-hori-without-avatar.png" alt="YeakCraft logo">
+        <img src="/images/yeakcraft-hori-without-avatar.png" width="200px" alt="YeakCraft logo">
     </a>
     <nav>
         <a href="/guide">Guide</a>
         <a href="/rules">Rules</a>
-        <a href="/yeakcraft/map">Map</a>
+        <a href="https://yeakcraft.com/yeakcraft/map/">Map</a>
     </nav>
 </div>

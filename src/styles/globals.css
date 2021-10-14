@@ -89,15 +89,28 @@ select {
 
 h1 {
   font-family: "Oswald", sans-serif;
+  font-size: 2.1rem;
   font-weight: 800;
+  color: #131313;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.24rem;
   font-weight: 600;
 }
 
 html, p, span, ul, li {
   font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+body {
+  min-height: 110vh;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 2px solid #6aad43;
 }
 /*# sourceMappingURL=globals.css.map */

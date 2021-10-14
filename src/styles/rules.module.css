@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+.container {
+  padding-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container section {
+  padding: 1.5em 10%;
+}
+
+.container .rulesSection {
+  padding: 1.5em 0;
+}
+
+.container .rulesSection p {
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  font-size: .8rem;
+  max-width: 75%;
+}
+
+.container .rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.container .rules div {
+  max-width: 45%;
+}
+
+.container .rules div:nth-of-type(even) {
+  margin: 0 5%;
+}
+
+@media (max-width: 480px) {
+  .container .rules div {
+    max-width: 100%;
+  }
+  .container .rules div:nth-of-type(even) {
+    margin: 0;
+  }
+}
+
+.container .rules span {
+  max-width: 60ch;
+  display: inline-block;
+}
+
+.container .rules ol {
+  list-style-type: upper-roman;
+}
+
+.container .rules h1 {
+  margin-bottom: 1.5rem;
+}
+
+.container .rules h2 {
+  margin-bottom: .25rem;
+}
+
+.container .rules span {
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=rules.module.css.map */
